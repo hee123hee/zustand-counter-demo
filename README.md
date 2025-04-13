@@ -1,12 +1,13 @@
-# React + Vite
+🧮 ZustandCounterApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Zustand와 React를 사용하여 제작한 심플하고 반응형 디자인의 카운터 웹앱입니다.
+핵심 기능인 숫자 증가/감소/초기화에 더해, +10 / -10 기능까지 포함하여
+직관적이고 편리한 UX를 제공합니다.
 
-Currently, two official plugins are available:
+🛠️ 사용 기술 스택
+React
+JavaScript (ES6+)
+Zustand – 상태 관리
+CSS
+Vercel – 배포
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
