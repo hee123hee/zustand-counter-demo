@@ -1,0 +1,67 @@
+body {
+    background-color: lightcyan;
+}
+
+.app {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: lightsteelblue;
+    border-radius: 30px;
+    box-shadow: 2px 20px 30px rgba(0, 0, 0, 0.12);
+    padding: 40px 40px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.count {
+    font-size: 4rem;
+    font-weight: bold;
+    color: blue;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+/* 리셋 버튼 */
+.resetBtn {
+    background-color: navajowhite;
+    color: red;
+    font-weight: bold;
+    padding: 12px 24px;
+    font-size: 1rem;
+    margin: auto;
+}
+
+.resetBtn:hover {
+    background-color: darkblue;
+}
+
+@media (max-width: 480px) {
+    .button-group {
+        justify-content: space-between;
+    }
+}
